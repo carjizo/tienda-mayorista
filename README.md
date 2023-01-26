@@ -5,3 +5,20 @@ Cada **producto** tiene un nombre o descripción, un código interno, una unidad
 Cada  **proveedor** tiene una razón social, un RUC, una dirección o domicilio fiscal y una serie de productos comestibles que distribuyen (Muchos proveedores pueden comercializar un producto y un proveedor puede comercializar muchos productos).
 Los **clientes** tienen los siguientes atributos: Nombre, dirección, teléfono, DNI/RUC. 
 Las **ventas y compras** se hacen en **facturas** que tienen los campos: fecha y hora de pedido, número de serie y número de factura, cliente/proveedor y los detalles de las compras/ventas que son las líneas de pedido. Ahora, todos los productos adquiridos se guardan en un almacén donde se tiene un registro del **stock** (producto, cantidad, fecha vencimiento
+
+Documentación api <a href="http://localhost:8090/tienda-mayorista/swagger-ui.html" target="_blank">http://localhost:8090/tienda-mayorista/swagger-ui.html
+
+### Diagrama BD con PosgrestSQL
+![](./images/diagrama.png)
+
+### Autenticación con Json Web Tokens
+![](./images/autenticacion.png)
+
+### Listar todos los productos
+![](./images/todosProductos.png)
+
+### Producto por Id
+![](./images/productById.png)
+
+### Crear Prodcuto
+![](./images/productSave.png)
